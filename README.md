@@ -12,7 +12,6 @@
 
 ### import_data.py
 * Load the data from 'PROP_10000.TXT' into the database.
-* There is also a 'PROP_10.TXT' file with just the first 10 records to use for testing, but the created table will hold all 10000 records
-* from 'PROP_10000.TXT'.
+* There is also a 'PROP_10.TXT' file with just the first 10 records to use for testing, but the created table will hold all 10000 records from 'PROP_10000.TXT'.
 * Any date fields must be converted from the format "MM-DD-YYYY" to the ISO-8601 "YYYY-DD-MM" when stored in the SQLite database.
   
